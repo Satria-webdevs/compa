@@ -1,0 +1,38 @@
+container-d {
+    width: 100%;
+    max-width: 1200px;
+    min-width: 320px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    aspect-ratio: 9 / 16;
+    background-color: darkred;
+}
+.border{
+    box-sizing: border-box;
+    border-radius: 5%;
+    border: 5;
+    border-color: red;
+    border-style: solid;
+}
+col-3{
+    flex: 1 1 300px;
+    justify-content: center;
+    background-color: red;
+    background-size: 3;
+}
+btn{
+    color: black;
+}
+navbar {
+    position: fixed; 
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}

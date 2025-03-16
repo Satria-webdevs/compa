@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form bootstrap</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row py-5">
+            <div class="col">
+                <form method="" action="">
+                    <!-- formulir -->
+                    <input class="form-control mb-3" type="text" name="" /><br>
+                    <input class="form-control mb-3" type="text" name="" /><br>
+                    <input class="form-control form-control-lg mb-3" type="text" name="" /><br>
+                    <input class="form-control form-control-sm mb-3" type="text" name="" /><br>
+                    <input class="form-control mb-3" type="text" name="" value="ini disable" disabled/><br>
+                    <input class="form-control mb-3" type="text" name="" value="ini disable dan readonly" disable readonly/><br>
+                    <input class="form-control-plaintext mb-3" type="text" name="" /><br>
+                    <input class="form-control mb-3" type="file" name="" multiple/>
+                    <input class="form-control mb-3" type="file" name="" multiple/>
+                    <input class="form-control mb-3" type="file" name="" />
+                    <h6>Textarea</h6>
+                    <input type="form-control" name="alamat" rows="3" />
+                </form>
+                <hr />
+                <h4>Select</h4>
+                <form action="" method="post">
+                    <select class="form-select mb-3" name="">
+                        <!-- Select option -->
+                        <option value="0" selected>Silahkan pilih</option>
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                    </select>
+                    <select class="form-select form-select-lg mb-3" name=""> 
+                        <option value="0" selected>Silahkan pilih</option>
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                    </select>
+                    <select class="form-select form-select-sm mb-3" name="">
+                        <option value="0" selected>Silahkan pilih</option>
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                    </select>
+                </form>
+                <hr>
+                <h4>checkbox and radio</h4>
+                <form class="d-flex" action="" method="post">
+                    <!-- Check Box -->
+                        <div class="col">
+                            <div class="form-check">
+                                <h6>Kendaraan yang anda miliki:</h6>
+                                <input class="form-check-input" type="checkbox" name="kendaraan1" value="KBR2"/> 
+                                <label class="form-check-label" for="">Motor</label> <br />
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="kendaraan2" value="KBR4"/> 
+                                <label class="form-check-label" for="">Mobil</label> <br />
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="form-check">
+                                <h6>Jenis Kelamin:</h6>
+                                <input class="form-check-input" type="radio" name="gender" value="L" />
+                                <label class="form-check-label" for="gender-L">Laki-Laki</label><br>
+                            </div> 
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="gender" value="P" />
+                                <label class="form-check-label" for="gender-P">Perempuan</label><br>
+                            </div><br>
+                            <div class="form-check">
+                                <h6 id="floatinginput">Email address</h6>
+                                <input type="form-control" id="floatinginput" type="email" placeholder="Email">
+                            </div>
+                        </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
